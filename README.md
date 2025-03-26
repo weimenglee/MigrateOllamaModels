@@ -40,7 +40,7 @@ I can now run the utility in Terminal. The statements in bold below shows input:
 
 
 
-```
+```python
 $ python **MigrateOllamaModels.py**
 
 Enter the root path of the Ollama models folder: ~/.ollama/models  
