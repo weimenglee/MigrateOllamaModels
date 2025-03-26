@@ -36,8 +36,6 @@ So now the destination root of the Ollama models folder is `/Volumes/SSD2/ollama
 
 You can now run the utility in Terminal:    
 
-**MigrateOllamaModels.py**
-
 ```
 $ python MigrateOllamaModels.py
 
