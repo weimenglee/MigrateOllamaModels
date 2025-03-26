@@ -5,6 +5,7 @@ An utility to migrate Ollama Models to another location
 
 Suppose you have an existing folder containing the Ollama models:
 
+```
 ~/.ollama
     |__models
          |__blobs
@@ -20,6 +21,7 @@ Suppose you have an existing folder containing the Ollama models:
                                  |__latest
                             |__mxbai-embed-large
                                  |__latest
+```
 
 Here the original root of the Ollama models folder is ~/.ollama/models. 
 
