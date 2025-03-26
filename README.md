@@ -1,8 +1,7 @@
 # MigrateOllamaModels
-An utility to migrate Ollama Models to another location
+An utility to migrate Ollama Models to another location.
 
 # How to use 
-
 Suppose you have an existing folder containing the Ollama models:
 
 ```
@@ -27,7 +26,7 @@ Here the original root of the Ollama models folder is `~/.ollama/models`.
 
 Say you now want to shift all the models to your external SSD. 
 
-To do that, I can add the following statement to the .zshrc file:
+To do that, you can add the following statement to the .zshrc file:
 
 ```
 <code>export OLLAMA_MODELS="/Volumes/SSD2/ollama"<code>
@@ -35,18 +34,18 @@ To do that, I can add the following statement to the .zshrc file:
 
 So now the destination root of the Ollama models folder is `/Volumes/SSD2/ollama`.
 
-I can now run the utility in Terminal. The statements in bold below shows the input:    
+You can now run the utility in Terminal:    
 
 **MigrateOllamaModels.py**
 
 ```sh
 $ python MigrateOllamaModels.py
 
-Enter the root path of the Ollama models folder: ~/.ollama/models  
-Enter the destination root path of the Ollama model folder: /Volumes/SSD2/ollama  
+Enter the root path of the Ollama models folder: ~/.ollama/models                 <-----enter this
+Enter the destination root path of the Ollama model folder: /Volumes/SSD2/ollama  <-----enter this
 
-Enter the name of the model (or 'exit' to quit): llama3.2  
-Enter the version of the model: latest  
+Enter the name of the model (or 'exit' to quit): llama3.2                         <-----enter this
+Enter the version of the model: latest                                            <-----enter this
 
 Digest values found in ~/.ollama/models/manifests/registry.ollama.ai/library/llama3.2/latest:  
   sha256:34bb5ab01051a11372a91f95f3fbbc51173eed8e7f13ec395b9ae9b8bd0e242b  
@@ -65,5 +64,6 @@ Copied: sha256-56bb8bd477a519ffa694fc449c2413c6f0e1d3b1c88fa7e3c9d88d3ae49d4dcb 
 Copied: 'latest' file to /Volumes/SSD2/ollama/manifests/registry.ollama.ai/library/llama3.2  
 
 Do you want to process another model? (yes/no):
+```
 
-
+If you type yes, you can specify another model and version to migrate.
