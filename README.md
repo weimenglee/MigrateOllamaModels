@@ -35,7 +35,7 @@ To do that, I can add the following statement to the .zshrc file:
 
 So now the destination root of the Ollama models folder is `/Volumes/SSD2/ollama`.
 
-I can now run the utility in Terminal. The statements in bold below shows input:    
+I can now run the utility in Terminal. The statements in bold below shows the input:    
 
 **MigrateOllamaModels.py**
 
