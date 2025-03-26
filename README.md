@@ -38,7 +38,7 @@ You can now run the utility in Terminal:
 
 **MigrateOllamaModels.py**
 
-```sh
+```
 $ python MigrateOllamaModels.py
 
 Enter the root path of the Ollama models folder: ~/.ollama/models                 <-----enter this
