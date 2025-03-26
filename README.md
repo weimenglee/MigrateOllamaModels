@@ -26,6 +26,7 @@ Here the original root of the Ollama models folder is ~/.ollama/models.
 Say you now want to shift all the models to your external SSD. 
 
 To do that, I can add the following statement to the .zshrc file:
+
 <code>export OLLAMA_MODELS="/Volumes/SSD2/ollama"<code>
 
 So now the destination root of the Ollama models folder is /Volumes/SSD2/ollama.
